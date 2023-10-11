@@ -1,4 +1,5 @@
 const { EventEmitter, io, socket, test, ConnectInfo } = require('./index');
+const emitter = new EventEmitter();
 const axios = require("axios").default;
 
 const prefix = "b!";
